@@ -6,20 +6,46 @@ body {
 
 #container1 {
     width: 100%;
+    background-color: white;
+    height: 50px;
+    margin-top: -8px;
+    margin-bottom: 50px;
+    margin-left: -8px;
+    padding-right: 8px;
+    padding-bottom: 40px;
+    padding-left: 8px;
 }
 
-#headerName {
+.headerName {
     text-align: left;
-    margin-left: 235px;
     background: teal;
+    float: left;
+    color: white;
+    margin-left: 233px;
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-right: 43px;
+    padding-bottom: 30px;
+    padding-left: 48px;
+
 }
 
-#topLinks {
+.topLinks {
     background: white;
     text-align: right;
+    margin-top: 10px;
     margin-right: 100px;
+    margin-left: 30px;
+    float: left;
+    height: 0px;
+
 }
 
+#headerName, #topLinks {
+    float: left;
+}
 .container2 {
     width: 960px;
     margin: auto;
@@ -78,7 +104,7 @@ p {
     padding-top: 1%;
     padding-bottom: 0px;
 }
-  
+   
 footer {
     display: flex;
     justify-content: center;
@@ -91,6 +117,6 @@ footer {
 
 
 
-/* #footer {
+ #footer {
     width: 100%
-} */
+}
