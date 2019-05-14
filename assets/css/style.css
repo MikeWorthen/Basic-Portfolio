@@ -63,6 +63,16 @@ body {
     padding-left: 5%;
     font-size: 36px;
 }
+h3 {
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+    padding-top: 0;
+    padding-left: 5%;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
 
 hr {
     display: block;
@@ -84,6 +94,69 @@ hr {
     padding-top: 15px;
     padding-left: 5%;
     align-content: left;
+}
+
+#lakers {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-left: 5%;
+    align-content: left;
+    margin-left: 90px;
+}
+
+#padres {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 5%;
+    align-content: left;
+    margin-left: 150px;
+}
+
+#ducks {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 55px;
+    padding-left: 3%;
+    align-content: left;
+    margin-left: 170px;
+}
+
+#chargers {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 3%;
+    align-content: left;
+    margin-right: 35px;
+    margin-left: 110px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+#galaxy {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 65px;
+    padding-top: 0;
+    padding-left: 3%;
+    align-content: left;
+    margin-left: 165px;
 }
 
 #text {
@@ -139,4 +212,42 @@ a:hover {
     background-color: #4aaaa5;
     color: black;
     font-size: 24px;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+#p8 {
+    color: #777777;
+    padding-left: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    margin-left: 48px;
+    margin-right: 50px;
+}
+
+#p9 {
+    color: #777777;
+    padding-left: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    margin-left: 48px;
+    margin-right: 50px;
+    padding-bottom: 350px;
+}
+
+button {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
 }
